@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assembly-CSharp-firstpass" />
+    <None Remove="Assembly-CSharp" />
+    <None Remove="UnityEngine.InputLegacyModule" />
+    <None Remove="UnityEngine.UI" />
+    <None Remove="UnityEngine.CoreModule" />
+    <None Remove="UnityEngine" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Desktop\KSP Stuff\plugin\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
